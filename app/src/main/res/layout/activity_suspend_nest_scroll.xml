@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.customdrugview.nestscroll.SuspendLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nestscroll.SuspendNestScrollActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:contentDescription="BL"
+        android:src="@mipmap/bl"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="Suspended_Title"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.example.customdrugview.nestscroll.SuspendLayout>
