@@ -8,8 +8,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="235dp"
+        android:layout_height="245dp"
         android:contentDescription="BL"
+        android:scaleType="centerCrop"
         android:src="@mipmap/bl"
         tools:ignore="HardcodedText" />
 
